@@ -16,7 +16,7 @@ public class MathOperationsService {
             System.out.println("Podaj liczbę:");
             if (!scanner.hasNextDouble()) {
                 System.out.println("Nieprawidłowy format");
-                scanner.next();   // usuwa błędny input
+                scanner.next();
                 continue;
             }
             firstNumber = scanner.nextDouble();
